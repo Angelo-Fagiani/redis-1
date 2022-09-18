@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: test
+    password: test
+  jpa:
+    hibernate:
+      ddl-auto: 'create-drop'
+  h2:
+    console:
+      enabled: true
+redis:
+  database: Angelo-free-db
+  password: XHCNpdku37F7OvAfAfiyV7ZopJyq6ixd
+  host: redis-10711.c277.us-east-1-3.ec2.cloud.redislabs.com
+  port: 10711
+
+
